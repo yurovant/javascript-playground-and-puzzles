@@ -2,4 +2,4 @@
 
 ----
 
-[Website](rubaxa.github.io/playground/)
+[Website](http://rubaxa.github.io/playground/)
