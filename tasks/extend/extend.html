@@ -1,0 +1,25 @@
+<style type="text/css">
+	body {
+		font: normal 18px Geneva, Arial, Helvetica, sans-serif;
+		margin: 20px;
+	}
+
+	ul { list-style: none; padding: 0; margin: 0 }
+
+	a { color: #03c; cursor: pointer; }
+	a:active { color: red; }
+
+	#menu .menu { position: absolute; box-shadow: 0 0 3px rgba(0,0,0,.3); padding: 10px; }
+	.collapsed { display: none; }
+</style>
+
+<div id="menu">
+    <a class="js-ctrl">Toggler</a>
+    <div class="js-menu menu collapsed">
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ul>
+    </div>
+</div>

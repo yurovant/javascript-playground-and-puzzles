@@ -1,0 +1,14 @@
+<style type="text/css">#result { border: 1px solid green; padding: 10px; }</style>
+
+<div id="result"></div>
+
+<div id="source"><!--
+    <div onclick="console.log('#1 XSS')">
+        foo
+        <script>1</script>!
+        <b>bar</b>
+        <img src="/xxxxx" onerror="console.log('#2 XSS')"/>
+        <a href="javascript:console.log('#3 XSS');">bug</a>
+        <a href="/foo.html">normal</a>
+    </div>
+--></div>
