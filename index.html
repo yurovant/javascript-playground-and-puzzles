@@ -1,23 +1,20 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8"/>
+	<meta charset="utf-8" />
 	<title>JavaScript playground and puzzles</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-	<link rel="stylesheet" href="st/app.css"/>
-	<link rel="stylesheet" href="//highlightjs.org/static/styles/xcode.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="static/styles.css" />
+	<link rel="stylesheet" href="https://unpkg.com/highlightjs@9.16.2/styles/xcode.css" />
 </head>
+
 <body>
-
-
 	<div id="editor"></div>
 	<div id="output"></div>
 	<div id="suite"></div>
 
-
-	<script src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.14/require.min.js" data-main="js/"></script>
-
-
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.14/require.min.js" data-main="js/"></script>
 	<script>
 		requirejs.config({
 			shims: {
@@ -25,11 +22,11 @@
 			},
 
 			paths: {
-				'ace': '//cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/ace',
-				'text': '//cdnjs.cloudflare.com/ajax/libs/require-text/2.0.12/text',
-				'jquery': '//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min',
-				'hljs': '//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.0/highlight.min',
-				'base64': '//cdnjs.cloudflare.com/ajax/libs/Base64/0.3.0/base64.min'
+				'ace': 'https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/ace',
+				'text': 'https://cdnjs.cloudflare.com/ajax/libs/require-text/2.0.12/text',
+				'jquery': 'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min',
+				'hljs': 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.0/highlight.min',
+				'base64': 'https://cdnjs.cloudflare.com/ajax/libs/Base64/0.3.0/base64.min'
 			}
 		});
 
@@ -51,4 +48,5 @@
 		});
 	</script>
 </body>
+
 </html>
